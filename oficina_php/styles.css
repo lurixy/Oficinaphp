@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: inline-block;
+    background-color: cornsilk;
+}
+
+hr{
+    width: 100vw;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: rgb(10, 10, 10);
+  font-family: "Nunito Sans", sans-serif;
+  font-style: bold;
+  text-transform: uppercase;
+  text-decoration: overline underline dashed;
+}
+
+p, span{
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+}
+
+.section-base{
+    padding: 40px;
+    display: inline-block;
+    width: 90vw;
+}
+
+.praticando{
+  font-weight: 500;
+  margin-top: 20px;
+  color: rgb(10, 10, 10);
+  text-decoration: underline;
+  font-style: italic;
+}
+.praticando span{
+  font-weight: bold;
+}
+
+.section-fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.theme-button{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: rgb(10, 10, 10);
+    border: 1px solid rgb(30, 30, 30);
+    margin-left: calc(100vw - 60px - 20px);
+    margin-top: calc(100vh - 60px - 20px);
+    border-radius: 100px;
+}
+.theme-button:hover{
+    cursor: pointer;
+}
+.theme-button span{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.section-base h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.code{
+    background-color: rgb(10, 10, 10);
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.code-green{
+    color: chartreuse;
+}
+.code-yellow{
+    color: gold;
+}
+.code-crimson{
+    color: crimson;
+}
+.code-cornflowerblue{
+    color: cornflowerblue;
+}
+.code-darksalmon{
+    color: darksalmon;
+}
+
+.code>div{
+    flex: 1;
+}
+
+.code>.result{
+    margin-left: -11px;
+    padding-left: 21px;
+    border-left: 2px dashed aliceblue;
+}
+
+.code h4{
+    text-decoration: none;
+    text-transform: none;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
